@@ -1,0 +1,242 @@
+html {
+    width: 100%;
+    height: 4000px;
+}
+body {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #fff;
+
+}
+
+.logo{
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+
+main {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 3800px;
+    /* background-color: aquamarine; */
+}
+
+.intro {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: #f4f4f4;
+}
+
+.introContent{
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    /* background-color: #f4f4f4; */
+    flex-direction: column;
+}
+
+#accessories {
+    align-self: center;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+
+.introContent p{
+    /* margin: 0; */
+    align-self: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+#case{
+    margin-top: 30px;
+    width: 80%;
+    align-self: center;
+}
+
+.aboutUs {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #e1eff2;
+}
+
+.aboutUsContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    /* background-color: beige; */
+}
+
+.aboutUsContent h2, .aboutUsContent h3, .aboutUsContent p {
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.aboutUsContent h2 {
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.button1 {
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.aboutUsContent a {
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: grey;
+}
+
+.photo {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    /* background-color: brown; */
+}
+
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 10px; */
+    width: 100%;
+    height: 42%;
+    /* background-color: #fff; */
+}
+
+.firstLine img {
+    width: 33%;
+    height: 98%;
+}
+
+.secondLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    width: 100%;
+    height: 42%;
+    /* background-color: #fff; */
+}
+
+.secondLine img {
+    width: 33%;
+    height: 98%;
+}
+
+.showMore{
+    position: relative;
+    left: 44%;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.showMore:hover {
+    background-color:black;
+    color: white
+}
+
+.contacts{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #fff;
+    /* background-color: green; */
+}
+
+.contactsContent{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    /* background-color: #fff; */
+}
+
+.contactsContent h2, .contactsContent p {
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactsContent h2 {
+    padding-top: 80px;
+    font-size: 30px;
+}
+
+.social {
+    align-self: center;
+}
+
+.social img {
+    padding-right: 7px;
+}
+
+footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* background-color: black; */
+}
+
+footer p {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+
+}
